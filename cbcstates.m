@@ -4,7 +4,7 @@ function cbc = cbcstates(n, c)
 % Input: 
 % n - number of qubits
 % c - number of common bit(s)
-% For c=0 returns the number of entangled states
+% For c=0 returns the number of inseparable states
 % For c=1 returns the number of all-partition separable states
 %
 % E.g. cbc = cbcstates(3, 0)
@@ -38,3 +38,4 @@ for kk=1:length(k)
 end
 
 end
+
