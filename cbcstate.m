@@ -1,6 +1,6 @@
 function cbc = cbcstate(n, c, k)
 % Calculate the distribution of common bit (CB) states that is n-qubit states that in the computational basis 
-% have 0 <= c <= n-1 bit(s) in common in the same position(s) for the support size
+% have 0 <= c <= n-1 bit(s) in common in the same position(s) for the support size k
 % Input: 
 % n - number of qubits
 % c - number of common bit(s)
@@ -23,3 +23,4 @@ for m=0:n-c
     msum = msum + prod;
 end
 cbc = msum*fct;
+
