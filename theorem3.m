@@ -19,6 +19,6 @@ for c=0:n-1
 
     val
     sum(val)
-    %xlswrite('Y:\___GRAFEN\___________________GHP\separ.xls', val, strcat('val',num2str(d)) );      
+    %xlswrite('separ.xls', val, strcat('val',num2str(d)) );      
     clear val;
 end
