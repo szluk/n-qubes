@@ -33,3 +33,7 @@ separable along a given partition if some eigenvalue is equal to one.
 
 separability.zip
 XLS file containing the results of the cross-validation for n=2,3,4 qubit states
+
+exsupsizes.m
+Function to generate numbers k factorable as products k = l * m with the property that ceil(log2(k)) < ceil(log2(l))+ceil(log2(m)) for all l, m.
+These numbers cannot represent the support sizes of bipartite separable quantum registers containing ceil(log2(k)) qubits.
