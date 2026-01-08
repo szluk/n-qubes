@@ -38,5 +38,5 @@ exsupsizes.m -
 Function to generate numbers k factorable as products k = l * m with the property that ceil(log2(k)) < ceil(log2(l))+ceil(log2(m)) for all l, m.
 These numbers cannot represent the support sizes of bipartite separable quantum registers containing ceil(log2(k)) qubits.
 
-nqubes.m
+nqubes.m - 
 Various functions and formulas. 
